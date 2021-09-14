@@ -1,0 +1,33 @@
+body {
+    background-color: #b2b4b2;
+}
+
+@font-face {
+    font-family: "SNES";
+    src: url("../css/fonts/snes.ttf") format("truetype");
+}
+
+.navbar {
+    padding: 0;
+    height: 100px;
+    background-color: #a7a4e0;
+}
+
+.navbar-brand {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.navbar>.container-fluid {
+    background-color: #a7a4e0;
+    height: 100px;
+    border-bottom: solid #54585a;
+    font-family: "SNES";
+    font-size: 24px;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+
