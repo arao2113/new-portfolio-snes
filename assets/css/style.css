@@ -1,5 +1,5 @@
 body {
-    background-color: #b2b4b2;
+    background-color: #d0cfd4;
 }
 
 @font-face {
@@ -8,26 +8,38 @@ body {
 }
 
 .navbar {
-    padding: 0;
-    height: 100px;
-    background-color: #a7a4e0;
+    background-color: #785db6;
+    font-family: 'SNES', sans-serif;
+    font-size: 42px;
+    border-bottom: solid 5px #54585a;
 }
 
 .navbar-brand {
-    font-size: 52px;
-    font-weight: bold;
+    font-size: 62px;
+    color: #54585a;
 }
 
-.navbar>.container-fluid {
-    background-color: #a7a4e0;
-    height: 100px;
-    border-bottom: solid #54585a;
-    font-family: "SNES";
-    font-size: 24px;
+.navbar-brand:hover {
+    color: #ffffff;
+    border-bottom: solid 5px #ffffff;
 }
 
 .nav-link {
-    color: #000000;
-    font-weight: bold;
+    color: #54585a;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+    border-bottom: solid 5px #ffffff;
+}
+
+.container {
+    margin-top: 120px;
+    border: solid 5px #5a5a5e;
+}
+
+p {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 22px;
 }
 

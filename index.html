@@ -11,14 +11,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
     <title>Ara Pirijanyan Portfolio</title>
 </head>
 
 <body>
 
-    <div class="container-xxxl">
-        <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 p-0">
+        <nav class="navbar">
           <a class="navbar-brand" href="#">
             <img src="assets/images/pixelara.png" alt="A pixelated self portrait" width="100" height="80" class="d-inline-block align-text-center">
             ARA PIRIJANYAN
@@ -27,18 +33,112 @@
           <!--Navbar links right-end-->
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+              <a class="nav-link" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Placeholder</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          </ul> 
+        </nav>
+      </div>
     </div>
-    
+  </div>
+
+  <!-- About Me-->
+  <div class="container bg-light rounded">
+    <div class="row">
+      <p>Hello and welcome to my little space on the internet. My name is Ara and I am a full-stack web developer and much more. Hope you like my portfolio theme, I was going for a Super Nintendo 16bit theme as its my favorite console and brings back a lot of good memeories for me. I started my web development journey back in mid 2018 at the UCLA full-stack bootcamp where we focused on the M.E.R.N stack. I enjoy working on all sorts of projects whether it be at the front or back end, debugging and automating mundane tasks. After my bootcamp I was able to land a job at <a href="https://www.tmz.com/" target="_blank"</a>TMZ</a> as a QA Analyst. Being in an actual SCRUM/AGILE professional environment I was able to learn a whole lot about the entire development process. 
+      </p>
+      <p>As a QA Analyst I learned a great deal about various testing tools, methodolgies, and automation. From wrting entire test suites and test cases into TestRail to verifying bug fixes or enhancements before reaching production.
+      I was really able to flex my coding skills when it came to automation. Initially when it came to automation our stack consisted of Java and TestNG. After a team discussion we believed that this stack was overkill and not industry standard for web testing. We finally settled on: Gauge, Python and Selenium. We were successfully able to automate several of our test suites and run full end-to-end tests with Slack reporting. 
+      </p>
+      <p>My goal has always been to be a web developer where I can contribute to something just more than tabloid news. Below you can see a list of the technologies I know and a glimpse into my personal portfolio. Other than developing I enjoy gaming wheter that be on my PC or console, to reading, and being in the outdoors. Thanks for visiting. 
+      </p>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="container bg-light">
+    <div class="row">
+      <div class="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Front-End
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Bootstrap</li>
+             </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Back-End
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>Node.js</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              QA
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>TestRail</li>
+                <li>Python</li>
+                <li>Selenium</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div class="container bg-light">
+    <div class="row">
+
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="container bg-light">
+    <div class="row">
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container bg-light">
+    <div class="row">
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
