@@ -43,3 +43,40 @@ p {
     font-size: 22px;
 }
 
+.accordion-button {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 900;
+}
+.skills {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.btn {
+    font-family: 'SNES', sans-serif;
+    font-size: 28px;
+    background-color: #503a87;
+    color: #ffffff;
+}
+
+div > a.btn.btn-2 {
+    background-color: #b0abe1;
+    color: #ffffff;
+}
+
+.card-body {
+    flex-direction: row;
+}
+
+h5 {
+    font-family: 'SNES', sans-serif;
+    font-size: 30px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #785db6;
+    border-top: solid 5px #54585a;
+    text-align: center;
+    font-family: 'SNES', sans-serif;
+    font-size: 34px;
+}
