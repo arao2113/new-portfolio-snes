@@ -35,6 +35,7 @@ body {
 
 .container {
     margin-top: 120px;
+    margin-bottom: 120px;
     border: solid 5px #5a5a5e;
 }
 
@@ -43,3 +44,50 @@ p {
     font-size: 22px;
 }
 
+a {
+    text-decoration: none;
+    color: #503a87;
+}
+
+.accordion-button {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 900;
+}
+.skills {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.btn {
+    font-family: 'SNES', sans-serif;
+    font-size: 28px;
+    background-color: #503a87;
+    color: #ffffff;
+}
+
+div > a.btn.btn-2 {
+    background-color: #b0abe1;
+    color: #ffffff;
+}
+
+div > a.btn.btn-2:hover {
+    background-color: #b0abe1;
+    color: #000000;
+}
+
+.card-body {
+    flex-direction: row;
+}
+
+h5 {
+    font-family: 'SNES', sans-serif;
+    font-size: 30px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #785db6;
+    border-top: solid 5px #54585a;
+    text-align: center;
+    font-family: 'SNES', sans-serif;
+    font-size: 34px;
+}
