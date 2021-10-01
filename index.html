@@ -9,6 +9,7 @@
     <!-- Stylesheets and Bootstrap -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Google fonts -->
@@ -34,16 +35,16 @@
           <!--Navbar links right-end-->
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About Me</a>
+              <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul> 
         </nav>
@@ -52,7 +53,7 @@
   </div>
 
   <!-- About Me-->
-  <div class="container bg-light rounded">
+  <div class="container bg-light rounded" id="about-me">
     <div class="row">
       <p>Hello and welcome to my little space on the internet. My name is Ara and I am a full-stack web developer and much more. Hope you like my portfolio theme, I was going for a Super Nintendo 16bit theme as its my favorite console and brings back a lot of good memeories for me. I started my web development journey back in mid 2018 at the UCLA full-stack bootcamp where we focused on the M.E.R.N stack. I enjoy working on all sorts of projects whether it be at the front or back end, debugging and automating mundane tasks. After my bootcamp I was able to land a job at <a href="https://www.tmz.com/" target="_blank"</a>TMZ</a> as a QA Analyst. Being in an actual SCRUM/AGILE professional environment I was able to learn a whole lot about the entire development process. 
       </p>
@@ -65,7 +66,7 @@
   </div>
 
   <!-- Skills -->
-  <div class="container bg-light rounded">
+  <div class="container bg-light rounded" id="skills">
     <div class="row">
       <div class="accordion">
         <div class="accordion-item">
@@ -128,55 +129,59 @@
   </div>
 
   <!-- Portfolio -->
-  <div class="container bg-light rounded">
+  <div class="container bg-light rounded d-flex justify-content-center" id="portfolio">
     <div class="row">
       <div class="card" style="width: 16rem;">
         <div class="card-body">
           <h5 class="card-title">Friend Finder</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://arcane-beach-27386.herokuapp.com/" target="_blank" class="btn">Demo</a>
-          <a href="https://github.com/arao2113/FriendFinder" target="_blank" class="btn btn-2">GitHub</a>
+          <p class="card-text">Take a quick online survey and we'll match you with friends based on your personality.</p>
+          <a href="https://arcane-beach-27386.herokuapp.com/" target="_blank" class="btn d-flex align-items-end">Demo</a>
+          <a href="https://github.com/arao2113/FriendFinder" target="_blank" class="btn btn-2 d-flex align-items-end">GitHub</a>
         </div>
       </div>
       <div class="card" style="width: 16rem;">
         <div class="card-body">
           <h5 class="card-title">Train Activity</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://arao2113.github.io/Train-Activity/" target="_blank" class="btn">Demo</a>
-          <a href="https://github.com/arao2113/Train-Activity" target="_blank" class="btn btn-2">GitHub</a>
+          <p class="card-text">A train scheduling application that shows you when you can expect the next ride.</p>
+          <a href="https://arao2113.github.io/Train-Activity/" target="_blank" class="btn d-flex align-items-end">Demo</a>
+          <a href="https://github.com/arao2113/Train-Activity" target="_blank" class="btn btn-2 d-flex align-items-end">GitHub</a>
         </div>
       </div>
       <div class="card" style="width: 16rem;">
         <div class="card-body">
           <h5 class="card-title">Giftastic</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://arao2113.github.io/GifTastic/" target="_blank" class="btn">Demo</a>
-          <a href="https://github.com/arao2113/GifTastic" target="_blank" class="btn btn-2">GitHub</a>
+          <p class="card-text">Select any preloaded gif or a gif of your choice and enjoy.</p>
+          <a href="https://arao2113.github.io/GifTastic/" target="_blank" class="btn d-flex align-items-end">Demo</a>
+          <a href="https://github.com/arao2113/GifTastic" target="_blank" class="btn btn-2 d-flex align-items-end">GitHub</a>
         </div>
       </div>
       <div class="card" style="width: 16rem;">
         <div class="card-body">
           <h5 class="card-title">Crytal Collector</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://arao2113.github.io/unit-4-game/" target="_blank" class="btn">Demo</a>
-          <a href="https://github.com/arao2113/unit-4-game" target="_blank" class="btn btn-2">GitHub</a>
+          <p class="card-text">You'll be given a random number at the start of the game, try and guess by clicking any of the 4 crytals to guess the random number.</p>
+          <a href="https://arao2113.github.io/unit-4-game/" target="_blank" class="btn d-flex align-items-end">Demo</a>
+          <a href="https://github.com/arao2113/unit-4-game" target="_blank" class="btn btn-2 d-flex align-items-end">GitHub</a>
         </div>
       </div>
       <div class="card" style="width: 16rem;">
         <div class="card-body">
           <h5 class="card-title">Trivia Game</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://arao2113.github.io/TriviaGame/" target="_blank" class="btn">Demo</a>
-          <a href="https://github.com/arao2113/TriviaGame" target="_blank" class="btn btn-2">GitHub</a>
+          <p class="card-text">A timed trivia game with a Los Angeles theme.</p>
+          <a href="https://arao2113.github.io/TriviaGame/" target="_blank" class="btn d-flex align-items-end">Demo</a>
+          <a href="https://github.com/arao2113/TriviaGame" target="_blank" class="btn btn-2 d-flex align-items-end">GitHub</a>
         </div>
       </div>
       </div>
   </div>
 
   <!-- Contact -->
-  <div class="container bg-light">
+  <div class="container bg-light rounded contact" id="contact">
     <div class="row">
-      <p>WIP</p>
+      <p>Name: Ara Pirijanyan</p>
+      <p>Email: ara.pirijanyan@gmail.com</p>
+      <p>Phone: (818)606-5653</p>
+      <a href="https://github.com/arao2113" target="_blank"><p><i class="bi bi-github"></i> GitHub</p></a>
+      <a href="  https://www.linkedin.com/in/ara-pirijanyan-b5a268161/" target="_blank"><p><i class="bi bi-linkedin"></i> Linkedin</p></a>
     </div>
   </div>
 
